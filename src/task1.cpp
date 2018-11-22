@@ -15,7 +15,7 @@ float idealWeight(char gender, float height) // ф-ция для определения идеального
 	}
 }
 
-int getRecomendation(char gender, float height, float weight)
+int getRecommendation(char gender, float height, float weight)
 {
 	float ideal_weight = idealWeight(gender, height);  // идеальный вес
 	

@@ -30,7 +30,7 @@ int main()
 	
 
 	gender = tolower(gender); // перевод буквы в нижний регистр
-	result = getRecomendation(gender, height, weight);
+	result = getRecommendation(gender, height, weight);
 
 	switch (result)
 	{
