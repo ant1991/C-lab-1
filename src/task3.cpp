@@ -1,4 +1,5 @@
 #define _USE_MATH_DEFINES  // для числа Pi (M_PI)
+#include <stdio.h>
 #include <math.h>  // для числа Pi (M_PI)
 
 char * convert(char buf[], double angle, char type)
