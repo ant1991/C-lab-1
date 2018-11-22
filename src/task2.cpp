@@ -1,4 +1,4 @@
-char * greet(int hour, int min)
+const char * greet(int hour, int min)
 {
 	if (hour < 0 || hour > 23 || min < 0 || min > 59)
 		return "Uncorrect time!";
