@@ -20,5 +20,5 @@
 
 	else
 
-		return "Uncorrect time  ";
+		return "Uncorrect time!";
 }
