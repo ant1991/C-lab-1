@@ -20,5 +20,5 @@
 
 	else
 
-		return "Uncorrect time \n ";
+		return "Uncorrect time  ";
 }
