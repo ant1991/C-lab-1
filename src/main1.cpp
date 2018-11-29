@@ -6,6 +6,8 @@
    int main()
    {
        float height, weight;
+       height=0;
+       weight=0;
        char gender;
        gender='m';
        gender='w';
