@@ -1,12 +1,14 @@
-const char * greet(int hour, int min, int sec)
+const char * greet(int hour, int min)
 {
-	int time = (hour * 60 * 60) + (min * 60) + sec;
-	if (time >= 0 && time < 21600)
+	int time = (hour * 60) + min;
+	if (time >= 0 && time < 360)
 		return "Good night!\n";
-	else if (time >= 21600 && time < 39600)
+	else if (time >= 360 && time < 660)
 		return "Good morning!\n";
-	else if (time >= 39600 && time < 64800)
+	else if (time >= 660 && time < 1080)
 		return "Good day!\n";
-	else if (time >= 64800 && time < 86400)
+	else if (time >= 1080 && time < 1440)
 		return "Good evening!\n";
+	else if (time > 1440)
+		return "Uncorrect time!\n";
 }
