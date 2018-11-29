@@ -2,13 +2,13 @@ const char * greet(int hour, int min)
 {
 	int time = (hour * 60) + min;
 	if (time >= 0 && time < 360)
-		return "Good night!\n";
+		return "Good night!";
 	else if (time >= 360 && time < 660)
 		return "Good morning!";
 	else if (time >= 660 && time < 1080)
 		return "Good day!";
 	else if (time >= 1080 && time < 1440)
-		return "Good evening!\n";
+		return "Good evening!";
 	else if (time > 1440)
 		return "Uncorrect time!";
 }
