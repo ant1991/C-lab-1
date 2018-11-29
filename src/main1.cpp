@@ -11,8 +11,8 @@
 
       printf("Введите ваш пол 'm' или 'w', рост в см и вес в кг: \n");
       scanf("%c, %f, %f", &gender, &height, &weight);
-
-
+      
+      int getRecommendation(char gender, float height, float weight);
       if(getRecommendation(gender, height, weight) == 0)
           printf("У вас идеальный вес!\n");
       else
