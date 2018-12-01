@@ -22,7 +22,7 @@ int main()
 		int result = scanf("%d:%d:%d", &hour, &min, &sec);
 		if (result != 3 || hour < 0 || hour >= 24 || min < 0 || min >= 60 || sec < 0 || sec >= 60)
 		{
-			printf("Uncorrect time!\n");
+			printf("Uncorrect time!");
 			clean_stdin();
 		}
 		else
