@@ -8,6 +8,6 @@ const char * greet(int hour, int min)
 		return "Good morning!";
 	else if (hour >= 11 && hour < 18)
 		return "Good day!";
-	else 
+	else if (hour >= 18 && hour < 24)
 		return "Good evening!";
 }
