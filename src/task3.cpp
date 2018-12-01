@@ -22,5 +22,5 @@ char * convert(char buf[], double angle, char type)
 	{
 		sprintf(buf, "%s", "Incorrect unit of measure!/n");
 	}
-	return;
+	return buf;
 }
