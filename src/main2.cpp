@@ -7,8 +7,6 @@ int main()
 	int hour, min, sec = 0;
 	printf("Please, enter current time in the format of 00:00:00\n");
 	scanf("%d:%d:%d", &hour, &min, &sec);
-	char greeting[30];
-	strcpy(greeting, greet(hour, min));
-	printf("%s\n", greeting);
+	printf("%s\n", greet(hour, min));
 	return 0;
 }

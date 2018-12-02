@@ -5,17 +5,17 @@
 
 char * convert(char buf[], double angle, char type)
 {
-	if (type == 'd')
+	if ((type == 'd')||(type == 'D'))
 	{
 		angle = (M_PI * angle) / 180;
-		type = 'r';
+		type = 'R';
 		sprintf(buf, "%.3lf%c", angle, type);
 
 	}
-	else if (type == 'r')
+	else if ((type == 'r') || (type == 'R'))
 	{
 		angle = (angle * 180) / M_PI;
-		type = 'd';
+		type = 'D';
 		sprintf(buf, "%.3lf%c", angle, type);
 	}
 	else
