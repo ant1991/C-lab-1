@@ -1,4 +1,5 @@
 #include "task3.h"
+#include <stdio.h>
 
 char * convert(char buf[], double angle, char type)
 {
