@@ -5,9 +5,9 @@ int main()
 {
 	double angle = 0;
 	char type;
-	char buf[10];
+	char buf[20];
 
-	printf("Enter angle value (xx.xxD or xx.xxR): ");
+	printf("Enter angle value in degrees or radians (xx.xxD or xx.xxR): ");
 	scanf("%lf%c", &angle, &type);
 	
 	printf(convert(buf, angle, type));
