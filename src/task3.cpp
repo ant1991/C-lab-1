@@ -1,8 +1,16 @@
-const char * convert(char buf[], double angle, char type)
+#include <stdio.h>
+
+char * convert(char buf[], double angle, char type)
 {
-	if (type == 'D')
-		sprintf(buf, "angle=%fR", (angle / 57.2958));
-	else if (type == 'r')
-		sprintf(buf, "angle=%fD", (angle) / 0.01745);
-	return buf;
+    float corner;
+    if (type == 'R') {
+        corner = angle * 3.1415 / 180;
+        sprintf(buf, "%6.4fD", corner);
+    } else if (type == 'D') {
+        corner = angle * 180 / 3.1415;
+        sprintf(buf, "%6.4fR", corner);
+    }
+    return buf;
+    
 }
+
