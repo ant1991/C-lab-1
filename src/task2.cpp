@@ -1,15 +1,14 @@
-const char * greet(int hour, int min)
+#include <stdio.h>
+const char greet(int hour, int min)
 {
-
-
 	if (hour >= 0 && hour < 6)
-		return "Good night!";
+		return printf ("Good night!");
 	else if (hour >= 6 && hour < 11)
-		return "Good morning!";
+		return printf ("Good morning!");
 	else if (hour >= 11 && hour < 18)
-		return "Good day!";
+		return printf ("Good day!");
 	else if (hour >= 18 && hour < 24)
-		return "Good evening!";
+		return printf ("Good evening!");
 	else
-		return "Uncorrect time!";
+		return printf("Uncorrect time!");
 }
