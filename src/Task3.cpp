@@ -1,13 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "task3.h"
+#define M_PI 3.14
+
+
 char * convert(char buf[], double angle, char type)
 {
-	
-	sprintf(buf, "%f+%c=%f%c", angle, type);
-	const char r=0, d=0;
-	if (type = r, angle *= 57.2958);
-	scanf ( d, angle);
-	 if (type = d, angle *= 0.0174533)	;
-	 scanf (r, angle);
-	 return 0;
-
+	switch (type)
+	{
+	case 'D':
+		sprintf(buf, "%.5lfR", angle * M_PI / 180);
+		return buf;
+		break;
+	case 'R':
+		sprintf(buf, "%.3lfD", angle * 180 / M_PI);
+		return buf;
+		break;
+	default:
+		return 0;
+	}
 }
