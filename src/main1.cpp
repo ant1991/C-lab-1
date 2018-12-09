@@ -3,13 +3,14 @@
 int main()
 {
 
-	char gender = 'm';
+	char gender = 0;
+	int height = 0;
+	int weight = 0;
+
 	printf("Enter 'm' or 'w': ");
 	scanf("%c", &gender);
-	int height = 0;
 	printf("Enter your height: ");
 	scanf("%d", &height);
-	int weight = 0;
 	printf("Enter your weight: ");
 	scanf("%d", &weight);
 	int result = getRecommendation(gender, height, weight);
