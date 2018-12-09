@@ -1,11 +1,11 @@
 const char* greet(int hour, int min)
 {
 
-	if (hour >= 00 && hour < 5)
+	if (hour >= 00 && hour < 6)
 		return "Good night!";
-	else if (hour >= 05 && hour < 11)
+	else if (hour >= 06 && hour < 12)
 		return "Good morning!";
-	else if (hour >= 11 && hour < 18)
+	else if (hour >= 12 && hour < 18)
 		return "Good afternoon!";
 	else if (hour >= 18 && hour < 24)
 		return "Good evening!";
