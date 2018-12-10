@@ -1,14 +1,12 @@
-#include "task2.h"
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include "task2.h"
 
 int main()
 {
-	int hour;
-	int min;
+	int hour=0;
+	int min=0;
 	printf("Enter the time hh:mm ");
 	scanf ("%d:%d", &hour, &min);
-	greet(hour, min);
+	printf ("%s", greet(hour, min));
 	return 0;
 }
