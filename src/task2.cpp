@@ -1,5 +1,5 @@
 #include <stdio.h>
-const char greet(int hour, int min)
+const char * greet(int hour, int min)
 {
 	if (hour >= 0 && hour < 6)
 		return printf ("Good night!");
