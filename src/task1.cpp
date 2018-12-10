@@ -19,9 +19,9 @@ int getRecommendation(char gender, float height, float weight)
 		if (getRec == 100)
 			getRec = 0;
 		else if (getRec > 100)
-			getRec = 1;
-		else if (getRec < 100)
 			getRec = -1;
+		else if (getRec < 100)
+			getRec = 1;
 	
 	return getRec;
 }
