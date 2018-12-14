@@ -6,7 +6,7 @@ int main()
 	int min = 0;
 	int sec = 0;
 	printf("Enter curret time (hh:mm:ss): ");
-	scanf("%d", &hour, &min, &sec);
+	scanf("%d:%d:%d", &hour, &min, &sec);
 
 	printf(greet(int(hour), int(min)));
 
