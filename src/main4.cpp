@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-	puts("Input height in feet'inches format");
+	puts("Input heights in feet'inches format");
 	int feet, inches;
 	scanf("%d'%d", &feet, &inches);
 	float height = convert(feet, inches);
