@@ -1,6 +1,3 @@
-﻿#include "pch.h"
-#include <stdio.h>
-
 const char * greet(int hour, int min)
 {
 	if (hour >= 24 || min >= 60)
