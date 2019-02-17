@@ -1,6 +1,4 @@
-#include "pch.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include "task1.h"
 
 int main()
@@ -17,11 +15,11 @@ int main()
 	
 	int result = getRecommendation(gender, height, weight);
 	if (result == 0)
-		printf("Weight ideal");
+		printf("Weight ideal\n");
 	else if (result == -1)
-		printf("Little weight");
+		printf("Little weight\n");
 	else if (result == 1)
-		printf("Big weight");
+		printf("Big weight\n");
 
 	return 0;
 }
