@@ -1,3 +1,4 @@
+#include <stdio.h>
 #define PI 3.14159
 
 char * convert(char buf[], double angle, char type)
