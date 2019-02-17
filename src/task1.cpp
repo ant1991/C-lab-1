@@ -1,4 +1,3 @@
-﻿#include "pch.h"
 #include <stdio.h>
 
 int getRecommendation(char gender, float height, float weight)
