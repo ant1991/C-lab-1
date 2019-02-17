@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 float convert(int feet, int inches)
 {
 	float height_cm;
