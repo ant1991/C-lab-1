@@ -1,6 +1,3 @@
-﻿#include "pch.h"
-
-
 float convert(int feet, int inches)
 {
 	float height_cm;
