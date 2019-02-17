@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int getRecommendation(char gender, float height, float weight)
 {
 	if (height - 100 == weight && gender == 'm')
